@@ -1,0 +1,594 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bolum1
+{
+    background: url(images/bg_1.jpg);
+    width: 99%;
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 0px;
+    
+}
+@media only screen and (max-width:768px){
+	.bolum1{
+		height: 1000px;
+	}
+	.bolum1 h2{
+		margin-top:35px; 
+	}
+
+}
+@media only screen and (max-width:320px){
+	.bolum1{
+		height: 1000px;
+	}
+	.bolum1 h2{
+		margin-top:35px; 
+	}
+
+}
+#filtre1
+{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+nav
+{
+    margin:40px 0px 0px 0px;
+    padding: 0px;  
+    position: relative;  /* position verip z index belirledim bu sayede nav en ust katmanda */
+    z-index: 5;
+}
+nav h3
+{
+    display: block;
+    float: left;
+    color: orange;
+}
+
+nav ul
+{
+    display: block;
+    list-style: none;
+    background: red;
+}
+nav ul li
+{
+    display: block;
+    float: right;
+    
+}
+nav ul li a
+{
+    display: block;
+    width: 85px;
+    margin: 5px;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    color: orange;
+}
+
+nav div
+{
+    font-size: 25px;
+    color: white;
+    background: black;
+    
+    display: none;
+    cursor: pointer;
+}
+
+@media(max-width:750px)
+{
+    nav div
+    {
+        display: block;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        
+    }
+    nav h3
+    {
+        position: fixed;
+        right: 10px;
+        top: 0px;
+    }
+    nav ul 
+    {
+        display: none;
+        width: 150px;
+        position: fixed;
+        left: 0px;
+
+        background: black;
+    }
+    nav ul li
+    {
+        background: black;
+        text-align: left;
+        position: static;
+        
+    }
+
+    
+}
+
+#bl1s2
+{
+    width: 100%;
+    height: 80vh;
+}
+#bl1s2 div h1
+{
+    color: whitesmoke;
+}
+#bl1s2 div p
+{
+    color: whitesmoke;
+}
+
+/*BÖLÜM 2 Başlangıç*/
+
+.form-group label
+{
+    font-weight: bold;
+}
+.form-group select
+{
+    width: 100%;
+    border-radius: 2px;
+    border-style: solid ; 
+    border-color: black;
+    border-width: 1px;
+    border-radius: 4px;
+    
+}
+.form-group select:focus
+{
+    box-shadow: 0 0 3px 3px #00BFFF;
+    
+}
+.form-group select option
+{
+    font-size: 20px;
+    
+}
+#search
+{
+    width: 80%;
+    margin: 20px 10px 0px 20px;
+    background: orange;
+    color: white;
+    font-size: 20px;
+}
+#blm2s1
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*Bölüm3 Başlangıç*/
+#blm3s1 div div
+{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    
+}
+
+#blm3s1 div div p
+{
+    font-size: 12px;
+    color: orange;
+    font-weight: bold;
+}
+#blm3s1 div div h1
+{
+    font-weight: bold;
+}
+
+
+.kart h5
+{
+    margin-bottom: 20px;
+}
+#blm3s1 div .kart p
+{
+    font-size: 18px;
+    color: black;
+    font-weight: normal;
+}
+/*Bölüm 4 Başlangıç*/
+#blm4s1 div div.abc 
+{
+    margin-top:40px ;
+    margin-bottom: 100px;
+}
+#blm4s1 div div p
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: orange;
+    
+}
+#blm4s1 div div h1
+{
+    font-weight: bold;
+    
+}
+
+.arabaKart
+{
+    border: solid;
+    border-color: black;
+    border-radius: 2px;
+    border-width: 1px;  
+    margin-bottom: 50px; /*bunu ekledim dikkat*/
+    
+}
+.fiyatEtiket
+{
+    display: block;
+    width: 25%;
+    height: 15%;
+    position: relative;
+    top: 85%;
+    background: white;
+    color:orange ;    
+
+}
+.arabaKartAlt
+{
+    margin-top: 30px;
+}
+.arabaKartAlt h5
+{
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#blm4s1 div .arabaKartAlt div p
+{
+    font-size: 14px;
+    color: gray;
+    font-weight: normal;
+    text-align: center;
+}
+
+.btn1
+{
+    background: white;
+    width: 45%;
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 10px;
+
+}
+.btn1:hover
+{
+    background: orange;
+    color: white;
+}
+.btn2
+{
+    background: white;
+    width: 45%;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.btn2:hover
+{
+    background: orange;
+    color: white;
+}
+.buttonHiza
+{
+    clear: both;
+}
+
+
+/*Bölüm5 Başlangıç*/
+
+#blm5
+{
+    background: url("images/bg_2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+}
+#filtre2
+{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    
+}
+
+#blm5 #blm5s1 div div 
+{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    
+}
+.kartvizit
+{
+    text-align: center;
+    
+}
+.kartvizitUst
+{
+    
+    width: 85px;
+    height: 85px;
+    font-size: 30px;
+    display: inline-block;
+    
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(252, 152, 60);
+    border-image: initial;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.kartvizitAlt p
+{
+    margin: 20px 40px;
+    color: white;
+}
+
+@media(max-width:780px)
+{
+    #blm5
+    {
+        height: 1500px;
+        background-size: cover;
+        background-position: center center;
+    }
+    #filtre2
+    {
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 1500px;
+        position: absolute;
+        left: 0px;
+    
+    }
+}
+@media(max-width:630px)
+{
+    #blm5
+    {
+        height: 1600px;
+        background-size: cover;
+        background-position: center center;
+    }
+    #filtre2
+    {
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 1600px;
+        position: absolute;
+        left: 0px;
+    
+    }
+}
+
+/*Bölüm 6 Başlangıç*/
+
+
+#blm6 #blm6s1 div .cab
+{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+  
+}
+#blm6 #blm6s1 div div h6
+{
+    color: orange;
+    font-size: 12px;
+}
+#blm6 #blm6s1 div div h3
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.blm6Kart
+{
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    box-shadow: 0px 7px 20px 0px gray;
+    margin-bottom: 50px;
+
+}
+.blm6Kart .blm6KartResim
+{
+    position: relative;
+    top: 20px;
+    
+    justify-content: center;
+    display: flex;
+}
+.blm6Kart .blm6KartResim img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    
+}
+.blm6Kart .blm6KartGovde
+{
+    
+    margin: 30px;
+    margin-top: 70px;
+}
+
+.blm6Kart .blm6KartGovde p
+{
+    margin: 30px;
+    text-align: center;
+}
+.blm6Kart .blm6KartGovde h5
+{
+    text-align: center;
+    color: orange;
+    margin-top: 10px;
+
+}
+.blm6Kart .blm6KartGovde h6
+{
+    text-align: center;
+    color: gray;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    
+}
+
+/*Bölüm 7 Başlangıç*/
+
+#blm7
+{
+    margin-top: 100px;
+}
+
+#sagBolum
+{
+    margin-left: 20px;
+}
+#sagBolum h6
+{
+    color: orange;
+    margin-top: 40px;
+}
+#sagBolum h4
+{
+    margin-top:20px ;
+    font-size: 38px;
+    font-weight: bold;
+}
+#sagBolum p
+{
+    margin-top: 55px;
+    margin-right: 40px;
+    padding-right: 20px;
+}
+#sagBolum input
+{
+    background: orange;
+    color: white;
+}
+@media(max-width:760px)
+{
+    #blm7s1Resim
+    {
+        height: 500px;
+    }
+}
+
+
+/*Bölüm 8 Başlangıç*/
+
+#blm8
+{
+    background: black;
+    color: white;
+    margin-top: 100px;
+    
+}
+
+#f1
+{
+    margin-top:100px ;
+    margin-left: 50px;
+}
+#f1 p
+{
+    margin-top: 50px;
+}
+#f2
+{
+    margin-top:100px ;
+    margin-left: 50px;
+}
+#f2 p
+{
+    margin: 0px;
+    padding:0px;
+}
+#f2 h5
+{
+    margin-bottom: 50px;
+}
+#f3
+{
+    margin-top:100px ;
+    margin-left: 50px;
+}
+#f3 p
+{
+    margin: 0px;
+    padding:0px;
+}
+#f3 h5
+{
+    margin-bottom: 50px;
+}
+#f4
+{
+    margin-top:100px ;
+    margin-left: 50px;
+}
+#f4 p
+{
+    margin: 0px;
+    padding:0px;
+}
+#f4 h5
+{
+    margin-bottom: 50px;
+}
+#f5
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

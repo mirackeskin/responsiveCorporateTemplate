@@ -1,0 +1,527 @@
+<!--Nav ile menu tasarımı-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResponsiveSite</title>
+    <link rel="stylesheet" href="stil1.css">
+
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="stil.js"></script>  
+
+</head>
+<body>
+    <!--Bölüm 1 Başlangıç-->
+    <section class="container-fluid bolum1">
+        <div id="filtre1" class="overlay"></div>
+        <div class="container">
+            <div class="row" >
+                <div class="col-md-12">
+                    <nav>
+                        <div><i class="fas fa-bars"></i></div>
+                        <h3>CAR CORPORATE</h3>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Our Car</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Home</a></li>                                                         
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div id="bl1s2" class="row align-items-center">
+                <div class="col-md-6" >
+                    <h1 class="display-4">Now <br>It's easy for you rent a car</h1>
+                    <p >A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts</p>
+                </div>
+
+                <div class="col-md-2 "></div>
+
+                <div style="border-radius: 5px;" class="col-md-4 col-sm-12 bg-light">
+                    <div  class="takvim bg-light m-3">
+                        <form action="#">
+                            <h3 class="mt-4">Make your trip</h3>
+                            <div class="form-group">
+                                <label style="width: 100%;" for="">PICK-UP LOCATION</label>
+                                <input style="width: 100%;" type="text" placeholder="City,Airport,Station,etc">
+                            </div>
+                            <div style="display: block; float: left; width: 45%;" class="form-group">
+                                <label for="">PICK-UP DATE</label><br>
+                                <input style="width: 100%;" type="date" placeholder="Date">
+                            </div>
+                            <div style="display: block; float: right; width: 45%;" class="form-group">
+                                <label for="">PICK-UP DATE</label><br>
+                                <input  style="width: 100%;" type="text" placeholder="Date">
+                            </div>
+
+                            <div  class="form-group">
+                                <label style="width: 100%;" for="">PICK-UP TIME</label>
+                                <input style="width: 100%;" type="text" placeholder="City,Airport,Station,etc">
+                            </div>
+                            
+                            <input style="font-size: 20px; width: 100%; background: orange; color:white ;" class="btn mb-4" value="Search Vehicle" type="submit">
+                            
+                            <div style="clear: both;"></div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!--Bölüm1 Son-->
+
+    <!--Bölüm2 Başlangıç-->
+
+    <section class="container">
+        <form action="#">
+            <div id="blm2s1" class="row">
+                <div class="col-lg-2" >
+                    <div class="form-group" >
+                        <label for="">Model Select</label><br>
+                        <select name="" id="">
+                            <option value="">Model1</option>
+                            <option value="">Model2</option>
+                            <option value="">Model3</option>
+                            <option value="">Model4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-2" >
+                    <div class="form-group">
+                        <label for="">Select Brand</label><br>
+                        <select name="" id="">
+                            <option value="">Brand1</option>
+                            <option value="">Brand2</option>
+                            <option value="">Brand3</option>
+                            <option value="">Brand4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-2" >
+                    <div class="form-group">
+                        <label for="">Year Model</label><br>
+                        <select name="" id="">
+                            <option value="">Model1</option>
+                            <option value="">Model2</option>
+                            <option value="">Model3</option>
+                            <option value="">Model4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-2" >
+                    <div class="form-group">
+                        <label for="">Price Limit</label><br>
+                        <select name="" id="">
+                            <option value="">Model1</option>
+                            <option value="">Model2</option>
+                            <option value="">Model3</option>
+                            <option value="">Model4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-4" >
+                    <input id="search" type="submit" class="btn" value="Search">
+                </div>
+            </div>
+        </form>
+    </section>
+    <!--Bölüm2 Son-->
+
+    <!--Bölüm3 Başlangıç-->
+
+    <section class="container">
+        <div id="blm3s1" class="row">
+            <div class="col-md-12">
+                <div >
+                    <p>OUR SERVICES</p>
+                    <h1>Our Services</h1>
+                </div>                
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="kart">
+                    <h5><i>X</i>24/7 Car Support</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="kart">
+                    <h5><i>X</i>24/7 Car Support</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="kart">
+                    <h5><i>X</i>24/7 Car Support</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div  id="s" class="kart">
+                    <h5><i>X</i>24/7 Car Support</h5>
+                    <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Bölüm3 Son-->
+
+    <!--Bölüm 4 Başlangıç-->
+
+    <section class="container-fluid">
+        <div id="blm4s1" class="row">
+            <div class="col-md-12">
+                <div class="abc" align="center">
+                    <p>WHAT WE OFFER</p>
+                    <h1>Choose Your Car</h1>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-sm-6">
+                <div class="arabaKart">
+                    <div class="arabaKartUst" style="background: url(images/arabaYeni.jpg); background-size: cover; width: 100%; height: 200px;">
+                        <!--<img src="images/car-1.jpg" alt="">-->
+                        <div class="fiyatEtiket" >
+                            <h5 >$30</h5>                           
+                        </div>
+                    </div>
+                    <div class="arabaKartAlt">
+                        <div>                       
+                            <h5 >Car Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <input  type="submit" class="btn btn1" value="Book Now">
+                        <input  type="submit" class="btn btn2" value="Details"> <div class="buttonHiza"></div>                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="arabaKart">
+                    <div class="arabaKartUst" style="background: url(images/arabaYeni.jpg); background-size: cover; width: 100%; height: 200px;">
+                        <!--<img src="images/car-1.jpg" alt="">-->
+                        <div class="fiyatEtiket" >
+                            <h5 >$30</h5>                           
+                        </div>
+                    </div>
+                    <div class="arabaKartAlt">
+                        <div>                       
+                            <h5 >Car Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <input  type="submit" class="btn btn1" value="Book Now">
+                        <input  type="submit" class="btn btn2" value="Details"> <div class="buttonHiza"></div>                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="arabaKart">
+                    <div class="arabaKartUst" style="background: url(images/arabaYeni.jpg); background-size: cover; width: 100%; height: 200px;">
+                        <!--<img src="images/car-1.jpg" alt="">-->
+                        <div class="fiyatEtiket" >
+                            <h5 >$30</h5>                           
+                        </div>
+                    </div>
+                    <div class="arabaKartAlt">
+                        <div>                       
+                            <h5 >Car Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <input  type="submit" class="btn btn1" value="Book Now">
+                        <input  type="submit" class="btn btn2" value="Details"> <div class="buttonHiza"></div>                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="arabaKart">
+                    <div class="arabaKartUst" style="background: url(images/arabaYeni.jpg); background-size: cover; width: 100%; height: 200px;">
+                        <!--<img src="images/car-1.jpg" alt="">-->
+                        <div class="fiyatEtiket" >
+                            <h5 >$30</h5>                           
+                        </div>
+                    </div>
+                    <div class="arabaKartAlt">
+                        <div>                       
+                            <h5 >Car Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <input  type="submit" class="btn btn1" value="Book Now">
+                        <input  type="submit" class="btn btn2" value="Details"> <div class="buttonHiza"></div>                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="arabaKart">
+                    <div class="arabaKartUst" style="background: url(images/arabaYeni.jpg); background-size: cover; width: 100%; height: 200px;">
+                        <!--<img src="images/car-1.jpg" alt="">-->
+                        <div class="fiyatEtiket" >
+                            <h5 >$30</h5>                           
+                        </div>
+                    </div>
+                    <div class="arabaKartAlt">
+                        <div>                       
+                            <h5 >Car Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <input  type="submit" class="btn btn1" value="Book Now">
+                        <input  type="submit" class="btn btn2" value="Details"> <div class="buttonHiza"></div>                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="arabaKart">
+                    <div class="arabaKartUst" style="background: url(images/arabaYeni.jpg); background-size: cover; width: 100%; height: 200px;">
+                        <!--<img src="images/car-1.jpg" alt="">-->
+                        <div class="fiyatEtiket" >
+                            <h5 >$30</h5>                           
+                        </div>
+                    </div>
+                    <div class="arabaKartAlt">
+                        <div>                       
+                            <h5 >Car Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <input  type="submit" class="btn btn1" value="Book Now">
+                        <input  type="submit" class="btn btn2" value="Details"> <div class="buttonHiza"></div>                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="arabaKart">
+                    <div class="arabaKartUst" style="background: url(images/arabaYeni.jpg); background-size: cover; width: 100%; height: 200px;">
+                        <!--<img src="images/car-1.jpg" alt="">-->
+                        <div class="fiyatEtiket" >
+                            <h5 >$30</h5>                           
+                        </div>
+                    </div>
+                    <div class="arabaKartAlt">
+                        <div>                       
+                            <h5 >Car Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <input  type="submit" class="btn btn1" value="Book Now">
+                        <input  type="submit" class="btn btn2" value="Details"> <div class="buttonHiza"></div>                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="arabaKart">
+                    <div class="arabaKartUst" style="background: url(images/arabaYeni.jpg); background-size: cover; width: 100%; height: 200px;">
+                        <!--<img src="images/car-1.jpg" alt="">-->
+                        <div class="fiyatEtiket" >
+                            <h5 >$30</h5>                           
+                        </div>
+                    </div>
+                    <div class="arabaKartAlt">
+                        <div>                       
+                            <h5 >Car Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <input  type="submit" class="btn btn1" value="Book Now">
+                        <input  type="submit" class="btn btn2" value="Details"> <div class="buttonHiza"></div>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Bölüm-4 Son-->
+
+    <!--Bölüm5 Başlangıç-->
+
+    <section id="blm5" class="container-fluid">
+        <div id="filtre2" class="overlay"></div>
+        <div id="blm5s1" class="row">
+            <div class="col-md-12">
+                <div>
+                    <h6>WORK FLOW</h6>
+                    <h4 class="display-4">How it works</h4>
+                </div>                
+            </div>
+            <div class="col-md-3">
+                <div class="kartvizit">
+                    <div class="kartvizitUst">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <div class="kartvizitAlt">
+                        <h4>Pick Destination</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="kartvizit">
+                    <div class="kartvizitUst">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <div class="kartvizitAlt">
+                        <h4>Pick Destination</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="kartvizit">
+                    <div class="kartvizitUst">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <div class="kartvizitAlt">
+                        <h4>Pick Destination</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="kartvizit">
+                    <div class="kartvizitUst">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <div class="kartvizitAlt">
+                        <h4>Pick Destination</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Bölüm-5 Son-->
+
+    <!--Bölüm-6 Başlangıç-->
+
+    <section id="blm6" class="container">
+        <div id="blm6s1" class="row">
+            <div class="col-md-12">,
+                <div class="cab">
+                    <h6>TESTIMONIAL</h6>
+                    <h3>Happy Clients</h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blm6Kart">
+                    <div class="blm6KartResim">
+                        <img src="images/person_1.jpg" alt="">
+                    </div>
+                    <div class="blm6KartGovde">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.</p>
+                        <h5>Roger Scott</h5>
+                        <h6 style="color: gray; font-size: 16px;">Marketting Manager</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blm6Kart">
+                    <div class="blm6KartResim">
+                        <img src="images/person_1.jpg" alt="">
+                    </div>
+                    <div class="blm6KartGovde">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.</p>
+                        <h5>Roger Scott</h5>
+                        <h6 style="color: gray; font-size: 16px;">Marketting Manager</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blm6Kart">
+                    <div class="blm6KartResim">
+                        <img src="images/person_1.jpg" alt="">
+                    </div>
+                    <div class="blm6KartGovde">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.</p>
+                        <h5>Roger Scott</h5>
+                        <h6 style="color: gray; font-size: 16px;">Marketting Manager</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Bölüm-6 Son-->
+
+    <!--Bölüm-7 Başlangıç-->
+
+    <section id="blm7" class="container">
+        <div id="blm7s1" class="row">
+            <div id="blm7s1Resim" class="col-md-6 col-sm-12" style="background: url(images/about.jpg); background-size: cover; background-position: center center;" >
+                
+            </div>
+            <div class="col-md-6">
+                <div id="sagBolum">
+                    <h6>ABOUT US</h6>
+                    <h4>Choose A Perfect Car</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae. <br><br>
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae..</p>
+                    <input type="submit" class="btn" value="Search Vehicle">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Bölüm-7 Son-->
+
+    <!--Bölüm-8 Başlangıç-->
+
+    <section id="blm8" class="container-fluid">
+        <div class="container">
+            <div id="blm8s1" class="row">
+                <div  class="col-md-3 col-sm-12">
+                    <div id="f1">
+                        <h5>About Autoroad</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis sunt saepe distinctio. Eaque, eligendi quae.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div id="f2">
+                        <h5>Information</h5>
+                        <p>About</p><br>
+                        <p>Services</p><br>
+                        <p>Term and Conditions</p><br>
+                        <p>About</p><br>
+                        <p>About</p><br>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div id="f3">
+                        <h5>Costumer Support</h5>
+                        <p>About</p><br>
+                        <p>Services</p><br>
+                        <p>Term and Conditions</p><br>
+                        <p>About</p><br>
+                        <p>About</p><br>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div id="f4">
+                        <h5>Have a Questions?</h5>
+                        <p>203 Fake St. Mountain View, San Francisco, California, USA</p><br>
+                        <p>2545645482</p><br>
+                        <p>info@mail.com</p><br>
+                        
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12" id="f5">
+                    <h6>Copyright ©2020 All rights reserved | This template is made with by NAME</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
